@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApp</string>
+
+    <string name="login_page_title">Selamat Datang kembali!</string>
+    <string name="login_page_subtitle">Masuk ke akun Anda yang ada</string>
+
+    <string name="register_page_title">Ayo Mulai!</string>
+    <string name="register_page_subtitle">Buat akun untuk mendapatkan semua fitur</string>
+
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="description">Deksripsi</string>
+    <string name="photo">Foto</string>
+    <string name="profile">Profil</string>
+
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+
+    <string name="ask_to_login">Anda punya akun? Masuk</string>
+    <string name="ask_to_register">Belum punya akun? Daftar</string>
+
+    <string name="email_validation">Alamat email tidak valid</string>
+    <string name="password_validation">Kata sandi harus minimal 6 karakter</string>
+
+    <string name="please_wait">Mohon tunggu…</string>
+
+    <string name="required_name">Nama tidak boleh kosong!</string>
+    <string name="required_email">Email tidak boleh kosong!</string>
+    <string name="required_password">Kata sandi tidak boleh kosong!</string>
+    <string name="required_image">Gambar tidak boleh kosong!</string>
+    <string name="required_description">Deskripsi tidak boleh kosong!</string>
+
+    <string name="home">Rumah</string>
+    <string name="maps">Peta</string>
+    <string name="settings">Pengaturan</string>
+    <string name="add_story">Tambahkan Cerita</string>
+    <string name="detail_story">Detail Cerita</string>
+
+    <string name="language">Bahasa</string>
+    <string name="logout">Keluar</string>
+
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Mengunggah</string>
+
+    <string name="widget">Widget</string>
+    <string name="appwidget_text">Spanduk Cerita</string>
+    <string name="empty_text">Tidak ada data</string>
+
+    <string name="error_message">Tidak dapat mengambil data cerita</string>
+    <string name="retry">Coba lagi</string>
+</resources>

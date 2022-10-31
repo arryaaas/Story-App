@@ -1,0 +1,74 @@
+SplashScreenViewModelTest
+A. Ketika pengguna sudah login.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (isLogin bernilai true).
+B. Ketika pengguna belum login.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (isLogin bernilai false).
+
+LoginViewModelTest
+A. Ketika berhasil login.
+   - Memastikan data tidak null.
+   - Memastikan mengembalikan Result.Success.
+B. Ketika gagal login.
+   - Memastikan data tidak null.
+   - Memastikan mengembalikan Result.Error.
+
+RegisterViewModelTest
+A. Ketika berhasil register.
+   - Memastikan data tidak null.
+   - Memastikan mengembalikan Result.Success.
+B. Ketika gagal register.
+   - Memastikan data tidak null.
+   - Memastikan mengembalikan Result.Error.
+
+HomeViewModelTest
+A. Ketika pengguna sudah login.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (token).
+B. Ketika berhasil memuat data paging cerita.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (list, size, dan id item pertama).
+
+MapsViewModelTest
+A. Ketika berhasil memuat data cerita dengan lokasi.
+   - Memastikan data tidak null.
+   - Memastikan mengembalikan Result.Success.
+B. Ketika gagal memuat data cerita dengan lokasi.
+   - Memastikan data tidak null.
+   - Memastikan mengembalikan Result.Error.
+
+SettingsViewModelTest
+A. Ketika pengguna sudah login.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (name).
+B. Ketika pengguna belum login.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (name bernilai string kosong).
+
+AddStoryViewModelTest
+A. Ketika berhasil menambahkan cerita.
+   - Memastikan data tidak null.
+   - Memastikan mengembalikan Result.Success.
+B. Ketika gagal menambahkan cerita.
+   - Memastikan data tidak null.
+   - Memastikan mengembalikan Result.Error.
+
+AuthRepositoryTest
+A. Ketika berhasil login.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (loginResult).
+B. Ketika berhasil register.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (message).
+
+StoryRepositoryTest
+A. Ketika berhasil menambahkan cerita.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (message).
+B. Ketika berhasil memuat data paging cerita.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (list, size, dan id item pertama).
+C. Ketika berhasil memuat data cerita dengan lokasi.
+   - Memastikan data tidak null.
+   - Memastikan data sesuai dengan yang diharapkan (size).

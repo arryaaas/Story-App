@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+
+    <string name="login_page_title">Welcome Back!</string>
+    <string name="login_page_subtitle">Login to your existing account</string>
+
+    <string name="register_page_title">Let\'s Get Started!</string>
+    <string name="register_page_subtitle">Create an account to get all features</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="description">Description</string>
+    <string name="photo">Photo</string>
+    <string name="profile">Profile</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="ask_to_login">You have an account? Login</string>
+    <string name="ask_to_register">Don\'t have an account yet? Register</string>
+
+    <string name="email_validation">Email address is invalid</string>
+    <string name="password_validation">Password must be at least 6 characters</string>
+
+    <string name="please_wait">Please wait…</string>
+
+    <string name="required_name">Name can\'t be empty!</string>
+    <string name="required_email">Email can\'t be empty!</string>
+    <string name="required_password">Password can\'t be empty!</string>
+    <string name="required_image">Image can\'t be empty!</string>
+    <string name="required_description">Description can\'t be empty!</string>
+
+    <string name="home">Home</string>
+    <string name="maps">Maps</string>
+    <string name="settings">Settings</string>
+    <string name="add_story">Add Story</string>
+    <string name="detail_story">Detail Story</string>
+
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+
+    <string name="widget">Widget</string>
+    <string name="appwidget_text">Story Banner</string>
+    <string name="empty_text">No Data</string>
+
+    <string name="error_message">Unable to fetch story data</string>
+    <string name="retry">Retry</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_outlined_home"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/mapsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_outlined_maps"
+        android:title="@string/maps"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_outlined_settings"
+        android:title="@string/settings"/>
+
+</menu>
